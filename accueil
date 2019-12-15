@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="stylecss.css" />
+        <title>Autosalonfrance</title>
+    </head>
+
+<body>
+
+    <div id="bloc_page">
+        <header>            
+            <div id="banniere_image">
+                <div id="banniere_description">Photothèque de véhicules prises en Salon, Rasso, Circuit...
+                    <a href="forum.html" class="bouton_rouge">Forum
+                        <img src="img/flecheblanchedroite.png" alt="Forum" /></a>
+                </div>
+            </div>
+        </header>
+
+        <section>
+                <div id="aside">
+                    <aside>
+                        <h2>Recherche par marque:</h2>
+                            <p>
+                                <form method="post">
+                                  
+                                 <select name="marques" onChange="location.href=''+this.options[this.selectedIndex].value+'.html';"> 
+                                     
+                                     
+                                    <option></option>        
+                                        <optgroup label="Europe">
+                                    <option value="abarth">Abarth</option>
+                                    <option value="alfaromeo">Alfa Roméo</option>
+                                    <option value="alpine">Alpine</option>
+                                    <option value="astonmartin">Aston Martin</option>
+                                    <option value="audi">Audi</option>
+                                    <option label="bentley">Bentley</option>
+                                    <option label="citroen">Citroën</option>
+                                    <option label="dacia">Dacia</option>
+                                    <option label="Ddetomaso">De Tomaso</option>
+                                    <option label="donkervoort">Donkervoort</option>
+                                    <option label="ds">DS</option>
+                                    <option label="ferrari">Ferrari</option>
+                                    <option label="fiat">Fiat</option>  
+                                    <option label="jaguar">Jaguar</option>
+                                    <option label="koenigsegg">Koenigsegg</option>
+                                    <option label="lambo">Lamborghini</option>
+                                    <option label="lancia">Lancia</option>
+                                    <option label="landrover">Land Rover</option>
+                                    <option label="lotus">Lotus</option>
+                                    <option label="maserati">Maserati</option>
+                                    <option label="mclaren">McLaren</option>
+                                    <option label="mercedes">Mercedes</option>
+                                    <option label="mini">Mini</option> 
+                                    <option label="morgan">Morgan</option>  
+                                    <option label="opel">Opel</option>
+                                    <option label="pagani">Pagani</option>
+                                    <option label="peugeot">Peugeot</option>
+                                    <option label="pgo">Pgo</option>
+                                    <option label="porsche">Porsche</option>
+                                    <option label="renault">Renault</option>
+                                    <option label="rolls">Rolls Royce</option>
+                                    <option label="saab">Saab</option>
+                                    <option label="seat">Seat</option>
+                                    <option label="skoda">Skoda</option>
+                                    <option label="smart">Smart</option>
+                                    <option label="tvr">Tvr</option>
+                                    <option label="venturi">Venturi</option>
+                                    <option label="vw">Volkswagen</option>
+                                    <option label="volvo">Volvo</option>
+
+                                        </optgroup>
+
+                                        <optgroup label="Amérique">
+                                    <option label="cadillac">Cadillac</option>    
+                                    <option label="chevrolet">Chevrolet</option>
+                                    <option label="chrysler">Chrysler</option>
+                                    <option label="dmc">DeLorean</option>
+                                    <option label="dodge">Dodge</option>
+                                    <option label="ford">Ford</option>
+                                    <option label="gmc">GMC</option>
+                                    <option label="hummer">Hummer</option>
+                                    <option label="jeep">Jeep</option>
+                                    <option label="lincoln">Lincoln</option>
+                                    <option label="mega">Méga</option>
+                                    <option label="plymouth">Plymouth</option>
+                                    <option label="pontiac">Pontiac</option>
+                                    <option label="shelby">Shelby</option>
+                                    <option label="tesla">Tesla</option>
+
+                                        </optgroup>
+
+                                        <optgroup label="Asie">
+                                    <option label="honda">Honda</option>
+                                    <option label="hyundai">Hyundai</option>
+                                    <option label="infiniti">Infiniti</option>
+                                    <option label="kia">Kia</option>
+                                    <option label="lexus">Lexus</option>
+                                    <option label="mazda">Mazda</option>
+                                    <option label="mitsubishi">Mitsubishi</option>
+                                    <option label="nissan">Nissan</option>
+                                    <option label="ssangyong">Ssangyong</option>
+                                    <option label="subaru">Subaru</option>
+                                    <option label="suzuki">Suzuki</option>
+                                    <option label="toyota">Toyota</option>
+
+
+                                        </optgroup>
+
+                                </select>    
+                             
+                                </form>
+                            </p>
+                    </aside>
+                </div>    
+                <div id="article">
+                    <article>
+                            <h2>Bienvenu(e), et merci de votre visite.</h2>
+                        <p>
+                            <img src="img/accueil.jpg" alt="photo accueil" title="Interieur Nismo IDx">
+                        </p>
+                    </article>
+                </div>
+                <div id="presentation">
+                    <nav>
+                        <h2>Présentation</h2>
+                            <p>
+                                Nous sommes avant tout des passionnés d'automobile. <br />
+                                Toutes les photos sur ce site ont été prises par des membres de l'équipe.<br />
+                                J'utilise personnellement un APN Fujifilm S1000D.<br />
+                            </p>
+                            <p>
+                                Nous faisons principalement les événements en France,<br />
+                                mais nous comptons bien aller aux Bruleurs de Gommes <br />
+                                de Spa en 2020.<br />
+                            </p>
+                            <p>
+                                Un aperçu du calendrier se situe en bas de page, <br />
+                                et une nouvelle fonctionnalité sera très prochainement <br />
+                                ajoutée!
+                            </p>
+
+                    </nav>
+                </div>    
+                
+        </section>
+
+        <footer>
+            
+                <div id="reseau"><h2>Suivez nous sur les réseaux sociaux:</h2>
+                    <div id="lien_reseau">
+                    <p>
+                        <a href="https://facebook.com/AutoSalon-France-111287246911735/"><img src="img/facebook.png" alt="Facebook" /></a>
+                        <a href="https://www.instagram.com/autosalonfrance/"><img src="img/insta.jpg" alt="Instagram" /></a>
+                        <a href="https://youtu.be/8UuVDFkWzOI"><img src="img/yt.jpg" alt="YouTube" /></a>
+                        <a href="https://www.twitter.com/autosalonfrance"><img src="img/twitter.png" alt="Twitter" /></a>
+                    </p>
+                </div>
+                </div>
+
+                <div id="mes_amis"><h2>Mes Amis: n'hésitez pas à visiter leurs profils:</h2>
+                    <div id="liste_amis">
+                        <ul>
+                            <li><a href="">TicArt Studio</a></li>
+                            <li><a href="">CPSA 28</a></li>
+                            <li><a href="">ProRider Tour</a></li>
+                        </ul>
+                        <ul>    
+                            <li><a href="">Wheeler Dealer France</a></li>
+                            <li><a href="">Top Gear France</a></li>
+                            <li><a href="">POG</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="calendrier"><h2>Le Calendrier 2020:</h2>
+                    <div id="liste_calendrier">
+                        <ul>
+                            <li><a href="">21-22 Mars: GT Préstige</a></li>
+                            <li><a href="">4 Avril: God save the Car</a></li>
+                            <li><a href="">25 Avril: Youngtimers Festival</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </div>
+</body>
+</html>
+         
