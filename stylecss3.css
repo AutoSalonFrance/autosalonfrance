@@ -1,0 +1,13 @@
+body
+{
+	background-image: url("img/fond.jpg");
+	background-repeat: repeat;
+	color:white;
+}
+
+h1
+{
+	text-align: center;
+	color: red;
+	text-decoration: underline;
+}
