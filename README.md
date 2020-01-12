@@ -1,3 +1,2 @@
 # autosalonfrance
-cars pictures
-presentation of the photos of the different car shows
+photo library cars' picture from european shows
